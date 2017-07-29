@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-HOST = "http://webapp"
+HOST = "http://172.17.0.1"
 
 class BrowserTests(unittest.TestCase):
     def setUp(self):
